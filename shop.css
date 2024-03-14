@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(148, 114, 148, 0.425);
+}
+header h3{
+    color: rgb(7, 7, 7);
+    margin-right: 20%;
+}
+header img{
+    width: 80px;
+    height: 80px;
+    margin-left: 300px;
+    justify-content: right;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+header ul li{
+    margin: 15px 50px 20px 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor2 img{
+    display: flex;
+    flex-direction:unset;
+    width: 100%;
+    height: 400px;
+    opacity: 50%;
+}
+ h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(253, 252, 252);
+}
+.contenedor img{
+    width: 135px;
+    height: 135px;
+}
+
+.kodfun-galeri{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3pc;
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(253, 252, 252, 0.007);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kodfun-galeri > div {
+
+flex: 1;
+border-radius: 1rem;
+background-position:center;
+background-repeat: no-repeat;
+background-size: auto 100%;
+transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri> div:hover{
+    flex: 5;
+}
+#map iframe{
+    padding: 10px;
+    margin-top: 10px;
+}
